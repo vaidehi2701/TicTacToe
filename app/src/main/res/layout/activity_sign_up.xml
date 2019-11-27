@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".SignUpActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -35,22 +35,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/btnSubmit"
-            android:text="Submit"
+            android:text="SignUp"
             android:layout_marginTop="20dp"
             android:layout_gravity="center"
             />
 
     </LinearLayout>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:id="@+id/btnSignUp"
-        android:layout_margin="20dp"
-        android:text="SignUp"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center"
-        />
 
 </RelativeLayout>
