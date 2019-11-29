@@ -23,18 +23,18 @@
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/etName"
+            android:id="@+id/etLoginName"
             android:hint="Email"
             android:layout_marginBottom="15dp"/>
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/etPassword"
+            android:id="@+id/etLoginPassword"
             android:hint="Password"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/btnSubmit"
+            android:id="@+id/btnLogin"
             android:text="Submit"
             android:layout_marginTop="20dp"
             android:layout_gravity="center"
